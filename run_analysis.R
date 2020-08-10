@@ -27,7 +27,7 @@ head(te_data, n = 2)
 
 # Check if test and train data have same number of columns
 if (dim(tr_data)[2] != dim(te_data)[2]){
-    error("Error! Test and train data sets must have the same number of columns")
+    stop("Error! Test and train data sets must have the same number of columns")
 }
 
 # Combine train and test into one table and check dimensions
@@ -69,8 +69,8 @@ tidy_data <- (tidy_data %>%
 tidy_data
 
 # Check if we missed some data 
-if (dim(use_data)[1] * dim(use_data)[2] == dim(tidy_data)[1] * 2){
-    error("Error! Some data are missing from the tidy data set.")
+if (dim(use_data)[1] * dim(use_data)[2] != dim(tidy_data)[1] * 2){
+    stop("Error! Some data are missing from the tidy data set.")
 }
 
 # Create a tidy dataset with the average of each variable for each activity and each subject.
