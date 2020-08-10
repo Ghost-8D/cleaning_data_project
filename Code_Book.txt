@@ -1,0 +1,25 @@
+Code Book for Samsung data
+
+
+Info for tidy_data tibble (table):
+
+Size: 339,867 x 5
+
+Column names:
+- activity : time or frequence measure, noted with 't' or 'f' in feature names, respectively 
+- signal : signal name extracted from feature name
+- direction : X, Y, Z or NA (for signals without direction)
+- mean : average value 
+- std : standard deviation
+
+
+Info for tidy_data2 tibble (table):
+
+Size: 33 x 5
+
+Column names: 
+- activity : time or frequence measure, noted with 't' or 'f' in feature names, respectively 
+- signal : signal name extracted from feature name
+- direction : X, Y, Z or NA (for signals without direction)
+- average_mean : average of the mean values of each group
+- average_std : average standard deviation of each group
