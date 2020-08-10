@@ -12,3 +12,4 @@ install.packages("tidyr")
 ```
 5. Use `source("run_analysis.R")` to execute the entire R script or run each command in console to see all the intermediate results
 6. To see the produced tidy dataset for step 4 use `tidy_data` and for step 5 `tidy_data2`
+> You can check __Code_Book.txt__ to better understand the data in each column
