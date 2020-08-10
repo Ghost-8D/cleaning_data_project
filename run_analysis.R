@@ -66,7 +66,7 @@ tidy_data <- (tidy_data %>%
     select(-grouped_id)
 )
 # Display first tidy data set 
-tidy_data
+View(tidy_data)
 
 # Check if we missed some data 
 if (dim(use_data)[1] * dim(use_data)[2] != dim(tidy_data)[1] * 2){
@@ -79,7 +79,7 @@ tidy_data2 <- (tidy_data %>%
     summarise(average_mean = mean(mean), average_std = mean(std))
 )
 # Display second tidy data set 
-tidy_data2
+View(tidy_data2)
 
 # Write tidy data to file
 write.table(tidy_data2, row.name=FALSE, file = "./data/tidy_data2.txt")
