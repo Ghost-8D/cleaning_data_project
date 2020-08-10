@@ -1,6 +1,6 @@
 Code Book for Samsung data
 
-Dataset downloaded from: ![here](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+Dataset downloaded from: [here](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
 Included files:
 - 'features_info.txt': Shows information about the variables used on the feature vector.
