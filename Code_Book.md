@@ -1,8 +1,8 @@
-Code Book for Samsung data
+# Code Book for Samsung data
 
 Dataset downloaded from: [here](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
-Included files:
+### Included files:
 - 'features_info.txt': Shows information about the variables used on the feature vector.
 - 'features.txt': List of all features.
 - 'activity_labels.txt': Links the class labels with their activity name.
@@ -44,7 +44,7 @@ colnames(test) <- features$name.feature
 
 
 
-Info for tidy_data tibble (table):
+### Info for tidy_data tibble (table):
 
 Size: 339,867 x 5
 
