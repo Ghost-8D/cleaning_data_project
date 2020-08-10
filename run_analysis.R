@@ -80,3 +80,7 @@ tidy_data2 <- (tidy_data %>%
 )
 # Display second tidy data set 
 tidy_data2
+
+# Write tidy data to file
+write.table(tidy_data2, row.name=FALSE, file = "./data/tidy_data2.txt")
+
