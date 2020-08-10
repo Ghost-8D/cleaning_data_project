@@ -56,7 +56,7 @@ Column names:
 - std : standard deviation
 
 
-Info for tidy_data2 tibble (table):
+### Info for tidy_data2 tibble (table):
 
 Size: 33 x 5
 
